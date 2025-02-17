@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # VibeSync
 
 VibeSync is a React application designed to provide a seamless user experience. This README file contains essential information about the project, including setup instructions, features, and how to contribute.
@@ -62,3 +63,6 @@ Contributions are welcome! Please follow these steps to contribute:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+=======
+# VibeSync
+>>>>>>> 9d9e5ca47659c69e830a5a8eaabe90b4ffcf6368
