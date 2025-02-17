@@ -1,68 +1,29 @@
-<<<<<<< HEAD
-# VibeSync
 
-VibeSync is a React application designed to provide a seamless user experience. This README file contains essential information about the project, including setup instructions, features, and how to contribute.
 
-## Features
+VibeSync est une application conçue pour organiser vos projets, événements et tâches de manière efficace. Elle offre la possibilité de marquer chaque action comme terminée, vous permettant ainsi de suivre l'avancement de vos activités. De plus, l'application permet de partager des photos en utilisant des URL, facilitant ainsi la collaboration et le partage de contenu.
 
-- A modern user interface built with React.
-- Responsive design for optimal viewing on various devices.
-- Progressive Web App (PWA) capabilities.
+Maintenance :
 
-## Getting Started
+Actuellement, la relation entre la base de données et le backend présente plusieurs anomalies, notamment des problèmes de connexion et de création d'utilisateurs. Bien que ces dysfonctionnements n'empêchent pas l'accès aux fonctionnalités de l'application via les URL, ils nécessitent une analyse approfondie pour être résolus.
 
-To get a local copy up and running, follow these steps:
+Lancement :
 
-### Prerequisites
+Pour démarrer l'application, suivez les étapes suivantes :
 
-- Node.js (version 14 or later)
-- npm (Node Package Manager)
+Connexion à la base de données :
 
-### Installation
+Ouvrez votre terminal et exécutez la commande suivante pour vous connecter à la base de données :
+bash
+Copier
+node backend/server.js
+Assurez-vous que le fichier server.js est correctement configuré pour établir la connexion à votre base de données.
+Lancement du projet :
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/yourusername/VibeSync.git
-   ```
-
-2. Navigate to the project directory:
-   ```
-   cd VibeSync
-   ```
-
-3. Install the dependencies:
-   ```
-   npm install
-   ```
-
-### Running the Application
-
-To start the development server, run:
-```
+Dans le répertoire principal de votre projet, exécutez la commande suivante pour démarrer l'application :
+bash
+Copier
 npm start
-```
-This will open the application in your default web browser at `http://localhost:3000`.
+Cette commande démarre le serveur et rend l'application accessible via le navigateur.
+Remarque :
 
-### Running Tests
-
-To run the tests for the application, use:
-```
-npm test
-```
-
-## Contributing
-
-Contributions are welcome! Please follow these steps to contribute:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/YourFeature`).
-3. Make your changes and commit them (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/YourFeature`).
-5. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-=======
-# VibeSync
->>>>>>> 9d9e5ca47659c69e830a5a8eaabe90b4ffcf6368
+Avant de lancer l'application, assurez-vous que toutes les dépendances sont installées en exécutant npm install dans le répertoire principal du projet.
